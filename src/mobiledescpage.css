@@ -1,0 +1,35 @@
+#marge {
+    margin: 0;
+}
+
+#big {
+    transform: scale(0.7);
+}
+
+header {
+    flex-direction: column;
+    align-items: center;
+}
+
+#rightarrow,
+#leftarrow {
+    display: none;
+}
+
+.git,
+.twitter,
+.instagram {
+    margin: 0;
+}
+
+
+#gitlogo,
+#instlogo,
+#xlogo {
+    font-size: 15px;
+}
+
+.linktxt {
+    font-size: 12px;
+    margin: 0 0 0 10px;
+}
