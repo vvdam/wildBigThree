@@ -1,0 +1,91 @@
+body {
+    margin: 0 90px 0 90px;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    background-image: url(/doc/Shader\ Gradient\ Wild.png);
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+#big {
+    padding: 0 200px 0 200px;
+    backdrop-filter: invert(20%);
+}
+
+#burger {
+    font-size: 30px;
+    margin: 20px 20px 20px 0;
+    color: white;
+}
+
+header {
+    margin: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.mainimage {
+    height: 300px;
+    width: auto;
+    border-radius: 15px;
+}
+
+.description {
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    width: 90%;
+    height: 700px;
+    margin: auto;
+}
+
+.slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+#leftarrow,
+#rightarrow {
+    color: white;
+    font-size: 30px;
+}
+
+
+
+.elements {
+    height: 90%;
+    width: 90%;
+}
+
+.image {
+    width: 300px;
+    height: 300px;
+}
+
+footer {
+    margin: 15px;
+}
+
+.git,
+.twitter,
+.instagram {
+    margin: 5px 5px 5px 0;
+}
+
+#gitlogo,
+#intlogo,
+#xlogo {
+    color: white;
+}
