@@ -146,9 +146,20 @@ main {
 #rightarrow {
     color: white;
     font-size: 30px;
+    cursor: pointer;
 }
 
+#leftarrow:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+    transition: 0.3s ease;
+}
 
+#rightarrow:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+    transition: 0.3s ease;
+}
 
 .elements {
     display: flex;
@@ -188,10 +199,12 @@ footer {
 #xlogo {
     color: white;
     font-size: 25px;
+    cursor: pointer;
 }
 
 .linktxt {
     font-weight: 600;
     color: white;
     margin-left: 15px;
+    cursor: pointer;
 }
