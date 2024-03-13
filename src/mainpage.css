@@ -1,10 +1,16 @@
 body {
   height: 100%;
   width: 100%;
-  background-image: url("/doc/Shader Gradient Wild.png");
-  background-size: cover;
 }
-
+#myVideo {
+  position: fixed;
+  object-fit: cover;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  min-width: 100%;
+  min-height: 100%;
+}
 .profilp {
   height: 100%;
 }
