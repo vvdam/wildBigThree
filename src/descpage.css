@@ -2,9 +2,19 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-image: url(/doc/Shader\ Gradient\ Wild.png);
-    background-size: cover;
+    /* background-image: url(/doc/Shader\ Gradient\ Wild.png); */
+    /* background-size: cover; */
     font-family: 'poppins';
+}
+
+#myVideo {
+    position: fixed;
+    object-fit: cover;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    min-width: 100%;
+    min-height: 100%;
 }
 
 #marge {
@@ -18,6 +28,7 @@ body {
     width: 300px;
     transform: translateX(-100%);
     transition: 0.5s ease-in-out;
+    z-index: 1;
 }
 
 .open {
@@ -64,11 +75,19 @@ nav {
     backdrop-filter: invert(20%);
 }
 
+#big:hover {
+    transform: scale(1.01);
+    opacity: 0.8;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+
+}
+
 .bi-list {
     font-size: 30px;
     margin: 20px 20px 20px 0;
     color: white;
-    transition: 0.5s ease;
+    transition: 0.2s ease;
 }
 
 .bi-list:hover {
@@ -100,9 +119,13 @@ header {
 }
 
 .description {
+    margin: 20px 20px 20px 10px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.2);
     color: white;
     text-align: center;
-    padding: 20px;
+    padding: 20px 20px 20px 0;
+    max-width: 65ch;
 }
 
 main {
@@ -128,8 +151,19 @@ main {
 
 
 .elements {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 90%;
     width: 90%;
+}
+
+.element {
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 500px;
+    width: 300px;
+    margin: 20px;
+    border-radius: 20px;
 }
 
 .image {
@@ -144,11 +178,20 @@ footer {
 .git,
 .twitter,
 .instagram {
+    display: flex;
+    align-items: center;
     margin: 5px 5px 5px 0;
 }
 
 #gitlogo,
-#intlogo,
+#instlogo,
 #xlogo {
     color: white;
+    font-size: 25px;
+}
+
+.linktxt {
+    font-weight: 600;
+    color: white;
+    margin-left: 15px;
 }
