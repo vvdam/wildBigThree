@@ -1,9 +1,37 @@
 body {
   height: 100%;
   width: 100%;
-  background-image: "/doc/Shader Gradient Wild.png";
+  background-image: url("/doc/Shader Gradient Wild.png");
+  background-size: cover;
 }
 
 .profilp {
-  height: 20%;
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  color: white;
+}
+
+.card {
+  height: 30%;
+  width: 60%;
+}
+header {
+  height: 30%;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+main {
+  height: 70%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 10%;
+  align-items: center;
 }
