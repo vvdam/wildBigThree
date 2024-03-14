@@ -6,17 +6,20 @@
     <title>Document</title>
     <link rel="stylesheet" href="cssReset.css" />
     <link rel="stylesheet" href="mainpage.css" />
+    <link rel="stylesheet" href="loading.css" />
   </head>
   <body>
+    <video autoplay muted infinite loop playsinline id="myVideo">
+      <source src="/doc/Shader Gradient video.mp4" type="video/webm" />
+    </video>
+    <!-- Loading screen -->
+    <div class="loading"><img src="/doc/loading.gif" alt="" /></div>
     <header>
       <img src="/doc/THE BIG THREElogoB3.svg" alt="" />
       <h1>Bienvenue voici une prEsentation de la team</h1>
     </header>
     <main>
       <div class="card">
-        <video autoplay muted infinite loop playsinline id="myVideo">
-          <source src="/doc/Shader Gradient video.mp4" type="video/webm" />
-        </video>
         <img class="profilp" src="/doc/pfp/Sibad profile.jpg" alt="" />
         <h1>Adam Maaloul</h1>
         <h3>
@@ -39,4 +42,6 @@
       </div>
     </main>
   </body>
+  <script src="loading.js"></script>
+  <script src="mainpage.js"></script>
 </html>
