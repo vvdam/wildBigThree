@@ -16,6 +16,15 @@ header {
     display: none;
 }
 
+.element {
+    min-width: 100%;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
 .git,
 .twitter,
 .instagram {
@@ -26,10 +35,15 @@ header {
 #gitlogo,
 #instlogo,
 #xlogo {
-    font-size: 15px;
+    font-size: 35px;
+    margin: 0 20px 0 20px;
+    background-color: rgba(0, 0, 0, .3);
+    padding: 0 10px 0 10px;
+    border-radius: 10px;
 }
 
 .linktxt {
+    display: none;
     font-size: 12px;
     margin: 0 0 0 10px;
 }
