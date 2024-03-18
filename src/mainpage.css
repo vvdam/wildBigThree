@@ -16,17 +16,19 @@ body {
     min-height: 100%;
 }
 .card-img {
-    height: 50%;
     width: 100%;
     align-self: center;
     border-radius: 15px;
 }
 #logo {
-    margin-left: 34.5%;
+    justify-self: center;
 }
 .title {
     font-family: "Arcade";
     font-size: 1.5rem;
+    text-align: center;
+    justify-self: center;
+    width: 80%;
 }
 
 h1,
@@ -51,17 +53,28 @@ p {
 /* }  */
 
 .card {
-    border-radius: 10px;
+    /* border-radius: 10px; */
     width: 45%;
     justify-self: center;
     justify-content: space-around;
     display: flex;
     flex-direction: column;
     /* background-color: rgba(0, 0, 0, 0.3); */
-    box-shadow: rgba(149, 157, 165, 0.454) 0px 8px 24px;
-    padding: 2% 4% 2% 4%;
+    /* box-shadow: rgba(149, 157, 165, 0.454) 0px 8px 24px; */
+    border-radius: 30px;
+    background: #212121;
+    box-shadow: 15px 15px 30px rgb(25, 25, 25), -15px -15px 30px rgb(60, 60, 60);
+    padding: 4% 4% 4% 4%;
+    height: auto;
+    gap: 10px;
 }
-
+.card:hover {
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.01);
+    cursor: pointer;
+    box-shadow: 20px 20px 40px rgb(149, 157, 165),
+        -20px -20px 40px rgb(60, 60, 60);
+}
 header {
     height: 30%;
     display: grid;
@@ -73,7 +86,6 @@ main {
     /* width: 100%; */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-
     /* margin-left: 9%; */
     /* margin-top: 20%; */
 }
@@ -83,10 +95,22 @@ main {
     color: aliceblue;
     width: 90%;
     height: 10%;
-    background-color: rgba(0, 0, 0, 0.3);
-    border: 1px solid#ff35f7;
-    box-shadow: #ff35f7 0px 8px 24px;
+    border-radius: 30px;
+    background: #212121;
+    border: 1px solid white;
+    /* box-shadow: 15px 15px 30px rgb(25, 25, 25), -15px -15px 30px rgb(60, 60, 60); */
     align-self: center;
     font-family: "poppins";
     cursor: pointer;
+    transition: ease-in-out 0.3s;
+}
+
+.card-button:hover {
+    /* background-image: url(/doc/ShaderGradientvideo.mp4); */
+    /* border: 1px solid#ff35f7;
+    box-shadow: #ff35f7 0px 8px 24px; */
+    transform: scale(1.05);
+    color: #212121;
+    background-color: aliceblue;
+    border: #212121 solid 1px;
 }

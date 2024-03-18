@@ -6,14 +6,13 @@ const profiles = [
     },
     {
         name: "Adam mamloul",
-        picture: "https://pbs.twimg.com/media/EbrSamFWAAAKpTV.png",
+        picture: "../doc/pfp/Sibadprofile.jpg",
         bio: `Pas de panique à bord, le fun et la vitesse à bord Pas de panique à
     bord C'est les Ratz, c'est les Ratz qui sont là pour ça`,
     },
     {
         name: "Ilya Répine ",
-        picture:
-            "https://uploads7.wikiart.org/00207/images/57726d84edc2cb3880b48a43/iv-n-el-terrible-y-su-hijo-por-ili-repin-2.jpg!Large.jpg",
+        picture: "../doc/pfp/Sibadprofile.jpg",
         bio: `J'ai plus d'inspi`,
     },
 ];
