@@ -138,15 +138,44 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100%;
-    width: 100%;
+    height: 700px;
+    /* width: 80%; */
+    margin: 0;
     overflow: hidden;
 }
 
-#leftarrow,
-#rightarrow {
+.elements {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    /* gap: 20px; */
+    /* overflow: hidden; */
+}
+
+.element {
+    background-color: rgba(255, 255, 255, 0.5);
+    min-width: 45%;
+    height: 500px;
+    margin: 20px;
+    /* padding: 20px; */
+    border-radius: 20px;
+}
+
+#leftarrow {
+    position: absolute;
     color: white;
     font-size: 30px;
+    cursor: pointer;
+    left: 5%;
+}
+
+#rightarrow {
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    right: 5%;
     cursor: pointer;
 }
 
@@ -162,29 +191,8 @@ main {
     transition: 0.3s ease;
 }
 
-.elements {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 90%;
-    width: 90%;
-}
-
-.element {
-    background-color: rgba(255, 255, 255, 0.5);
-    height: 500px;
-    min-width: 300px;
-    margin: 20px;
-    border-radius: 20px;
-}
-
-.image {
-    width: 300px;
-    height: 300px;
-}
-
 footer {
-    margin: 15px;
+    margin: 15px 15px 65px 15px;
 }
 
 .git,
