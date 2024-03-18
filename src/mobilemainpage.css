@@ -1,0 +1,19 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.title {
+    text-align: center;
+    width: 90%;
+}
+
+#logo {
+    transform: scale(0.7);
+    justify-self: center;
+}
+footer {
+    height: 20px;
+}
