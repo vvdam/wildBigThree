@@ -52,7 +52,6 @@ if (window.matchMedia("(min-width: 800px)").matches) {
 
     // On récupère les éléments
     const elements = document.querySelector('.elements');
-    console.log(elements);
 
     // On récupère le button next
     const nextButton = document.querySelector('#rightarrow');
@@ -63,40 +62,29 @@ if (window.matchMedia("(min-width: 800px)").matches) {
     // On récupère la card pour en retirer sa taille X
     const element = document.querySelector('.element');
     const style = window.getComputedStyle(element);
-    console.log(style.margin);
 
     // On vient créer un tableau avec tous les éléments
     const listElement = Array.from(elements.children);
-    console.log(listElement);
-    console.log(typeof (listElement[0]));
-    console.log(typeof (elements.firstElementChild));
 
     // On vient cloner le nombre d'image nécessaire à la fin du slider
     const elementWidth = element.getBoundingClientRect().width; // Dimension X d'un élément
-    console.log(elementWidth);
     const elementsWidth = elements.getBoundingClientRect().width; // Dimension X du conteneur éléments
-    console.log(elementsWidth);
-    const sliderWidth = slider.getBoundingClientRect().width; // Dimension X du slider
+
     // Calcul du nombre d'images visible 
     const imgNumber = Math.floor(elementsWidth / elementWidth) + 1;
-    // const imgNumber = 3;
-    console.log(imgNumber);
 
     // Création des clones des 1ères images
     let firstTab = [];
     for (i = 0; i < imgNumber; i++) {
         let image = listElement[i].cloneNode(true);
         firstTab.push(image);
-        console.log(firstTab);
     }
 
     // Création des clones des dernières images
     let secondTab = []
     for (i = 0; i < imgNumber; i++) {
         let image = listElement[listElement.length - (i + 1)].cloneNode(true);
-        console.log(typeof (listElement[listElement.length - (i + 1)]));
         secondTab.push(image);
-        console.log(secondTab);
     }
 
     // Ajout des clones dans le code HTML
@@ -112,7 +100,6 @@ if (window.matchMedia("(min-width: 800px)").matches) {
         compteur++;
         elements.style.transition = "0.5s ease";
         let offSet = (-(elementWidth + 50) * compteur);
-        console.log(offSet);
         elements.style.transform = `translateX(${offSet}px)`;
 
         // Rembobinage dès que l'animation est terminée avec la fonction setTimeout
@@ -131,7 +118,6 @@ if (window.matchMedia("(min-width: 800px)").matches) {
         compteur--;
         elements.style.transition = "0.5s ease";
         let offSet = (-(elementWidth + 50) * compteur);
-        console.log(offSet);
         elements.style.transform = `translateX(${offSet}px)`;
 
         // Rembobinage dès que l'animation est terminée avec la fonction setTimeout
@@ -148,18 +134,11 @@ if (window.matchMedia("(min-width: 800px)").matches) {
 
 }
 
+// Note -> Carroussel fonctionnant avec un nombre impaire de cartes créées. 
+// Pour effectuer le bon reset dans la fonction setTimeout:
+// compteur = 0 si 3 cartes créées 
+// compteur = 1 et -1 si 5 cartes créées 
+// compteur = 2 et -2 si 7 cartes créées 
+// ...
 
-
-
-// Faire défiler le carroussel vers la droite
-// compteur = 0
-// nextButton.addEventListener('click', () => {
-//     compteur++;
-//     elements.style.transition = '0.5s ease';
-//     let offSet = -sliderWidth * compteur;
-//     elements.style.transform = `translateX(${offSet}px)`;
-// })
-
-
-// Mise en place du carroussel
 
