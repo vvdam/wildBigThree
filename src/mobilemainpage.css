@@ -1,8 +1,13 @@
+body {
+    height: 100%;
+}
+
 main {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 30px;
+    height: 100vh;
 }
 
 .title {
@@ -14,6 +19,11 @@ main {
     transform: scale(0.7);
     justify-self: center;
 }
+
 footer {
     height: 20px;
 }
+
+/* .card {
+    padding: 4% 4% 4% 4%;
+} */
