@@ -2,27 +2,27 @@ const navBar = document.querySelector('.navbar');
 const burgerButton = document.querySelector('#burger');
 const closeButton = document.querySelector('#closemark');
 const body = document.querySelector('body');
+const blackScreen = document.querySelector('.ecrannoir');
 
 // Défilement de la navbar => affichage croix + disparition burger
 burgerButton.addEventListener('click', () => {
     navBar.classList.add('open');
     burgerButton.classList.add('remove');
+    blackScreen.classList.add('active');
 })
 
 // Défilement de la navbar => affichage burger + disparition croix
 closeButton.addEventListener('click', () => {
     navBar.classList.remove('open');
     burgerButton.classList.remove('remove');
+    blackScreen.classList.remove('active');
 })
 
-// Disparition burger au click sur le body
-// body.addEventListener('click', () => {
-//     console.log(2);
-//     navBar.classList.remove('open');
-//     burgerButton.classList.remove('remove');
-// })
-
-
+blackScreen.addEventListener('click', () => {
+    navBar.classList.remove('open');
+    burgerButton.classList.remove('remove');
+    blackScreen.classList.remove('active');
+})
 
 // On récupère le slider
 const slider = document.querySelector('.slider');
@@ -139,9 +139,7 @@ if (window.matchMedia("(min-width: 800px)").matches) {
                 elements.style.transform = `translateX(${offSet}px)`;
             }
         }, 500);
-
     })
-
 }
 
 // Note -> Carroussel fonctionnant avec un nombre impaire de cartes créées. 
@@ -149,8 +147,7 @@ if (window.matchMedia("(min-width: 800px)").matches) {
 // compteur = 0 si 3 cartes créées 
 // compteur = 1 et -1 si 5 cartes créées 
 // compteur = 2 et -2 si 7 cartes créées 
-// ...
-
+// ... OK CA MARCHE PAS EN FAIT XD
 
 if (window.matchMedia("(max-width: 800px)").matches) {
 
