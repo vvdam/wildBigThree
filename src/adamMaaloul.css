@@ -1,0 +1,35 @@
+.slider_img1,
+.slider_img2,
+.slider_img3 {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    height: 36%;
+    background-size: cover;
+
+    box-shadow: inset 1px -20px 50px #212121;
+}
+
+.slider_img1 {
+    background-image: linear-gradient(
+            rgba(255, 255, 255, 0),
+            /* rgba(255, 255, 255, 0), */ #212121
+        ),
+        url("/doc/bannAM.png");
+}
+.slider_img2 {
+    background-image: linear-gradient(
+            rgba(255, 255, 255, 0),
+            rgba(255, 255, 255, 0),
+            #212121
+        ),
+        url("/doc/loading.gif");
+}
+
+.slider_img3 {
+    background-image: linear-gradient(
+            rgba(255, 255, 255, 0),
+            rgba(255, 255, 255, 0),
+            #212121
+        ),
+        url("/doc/loading.gif");
+}
