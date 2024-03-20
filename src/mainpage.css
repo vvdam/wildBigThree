@@ -20,6 +20,7 @@ body {
 
 .card-img {
     width: 250px;
+    height: 250px;
     align-self: center;
     border-radius: 15px;
 }
@@ -99,6 +100,7 @@ main {
 }
 
 .card-button {
+    display: flex;
     border-radius: 5px;
     color: aliceblue;
     width: 200px;
@@ -107,10 +109,13 @@ main {
     background: #212121;
     border: 1px solid white;
     /* box-shadow: 15px 15px 30px rgb(25, 25, 25), -15px -15px 30px rgb(60, 60, 60); */
-    align-self: center;
+    /* align-self: center; */
     font-family: "poppins";
     cursor: pointer;
     transition: ease-in-out 0.3s;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
 }
 
 .card-button:hover {

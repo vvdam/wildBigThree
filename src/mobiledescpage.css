@@ -22,8 +22,12 @@ header {
     display: none;
 }
 
+.navbar {
+    width: 100vw;
+}
+
 main {
-    width: 75%;
+    width: 95%;
     margin-top: 50px;
     margin-bottom: 50px;
 }

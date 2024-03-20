@@ -7,6 +7,19 @@ body {
     font-family: "poppins";
 }
 
+.ecrannoir {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(25, 25, 25, 0);
+    z-index: -1;
+}
+
+.active {
+    background-color: rgb(25, 25, 25, .5);
+    z-index: 5;
+}
+
 #myVideo {
     position: fixed;
     object-fit: cover;
@@ -22,13 +35,18 @@ body {
 }
 
 .navbar {
-    position: absolute;
-    background-color: rgba(61, 61, 61, 0.5);
-    height: 1470px;
-    width: 300px;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* position: sticky;
+    top: 0; */
+    background-color: rgba(61, 61, 61, 0.9);
+    height: 100vh;
+    width: 250px;
     transform: translateX(-100%);
-    transition: 0.2s ease-in-out;
-    z-index: 1;
+    transition: 0.15s ease-in-out;
+    z-index: 10;
 }
 
 .open {
@@ -36,12 +54,13 @@ body {
 }
 
 #closemark {
-    position: absolute;
+    /* position: absolute; */
     color: white;
     font-size: 40px;
     margin: 10px;
     top: 0;
     right: 0;
+    align-content: center;
 }
 
 #closemark:hover {
@@ -51,25 +70,25 @@ body {
     cursor: pointer;
 }
 
-.list li {
-    top: 25%;
+.list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin-top: 10px; */
+}
+
+.lien {
     list-style-type: none;
     font-size: 18px;
     color: white;
-    padding: 3px;
+    /* padding: 3px; */
     transform: translateY(40px);
     text-decoration: none;
 }
 
-.list li:hover {
+.lien:hover {
     cursor: pointer;
     opacity: 0.6;
-}
-
-.list li a {
-    text-decoration: none;
-    color: white;
-    font-weight: 600;
 }
 
 nav {
@@ -140,7 +159,7 @@ main {
     display: flex;
     align-items: center;
     width: 90%;
-    height: 900px;
+    height: 800px;
     margin: auto;
     margin-top: 150px;
     margin-bottom: 150px;
@@ -172,7 +191,7 @@ main {
     background-size: cover; */
     background-color: rgba(255, 255, 255, 0.5);
     min-width: 45%;
-    height: 900px;
+    height: 100%;
     margin: 20px;
     /* padding: 20px; */
     background-color: #212121;
