@@ -23,11 +23,14 @@ header {
 }
 
 main {
-    width: 60%;
+    width: 75%;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .element {
     min-width: 100%;
+    margin: 0;
 }
 
 footer {
