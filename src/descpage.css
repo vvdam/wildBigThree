@@ -72,7 +72,7 @@ nav {
 
 #big {
     padding: 0;
-    backdrop-filter: invert(20%);
+
 }
 
 #big:hover {
@@ -216,4 +216,5 @@ footer {
     color: white;
     margin-left: 15px;
     cursor: pointer;
+    text-decoration: none;
 }
