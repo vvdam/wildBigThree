@@ -161,14 +161,6 @@ if (window.matchMedia("(max-width: 800px)").matches) {
     elements.appendChild(firstClone);
     elements.prepend(secondClone);
 
-    // Création fonction suivante
-    // function suivante() {
-    //     let compteur = 0;
-    //     let offSetWidth = -elementWidth * compteur;
-    //     elements.style.transform = `translateX(${offSetWidth}px)`;
-    //     compteur ++;
-    // }
-
     // Création du défilement
     let compteurInter = 0;
     setInterval(function () {
