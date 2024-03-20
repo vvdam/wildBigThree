@@ -71,6 +71,7 @@ nav {
 }
 
 #big {
+    margin-top: 15px;
     padding: 0;
 }
 
@@ -112,14 +113,16 @@ header {
 
 .mainimage {
     height: 300px;
-    width: auto;
+    width: 300px;
     border-radius: 15px;
 }
 
 .description {
     margin: 20px 20px 20px 10px;
     border-radius: 20px;
-    background-color: rgba(255, 255, 255, 0.2);
+    /* background-color: rgba(255, 255, 255, 0.5); */
+    background-color: #212121;
+    box-shadow: inset 1px -20px 50px #212121;
     color: white;
     text-align: center;
     padding: 20px 20px 20px 0;
@@ -130,16 +133,17 @@ main {
     display: flex;
     align-items: center;
     width: 90%;
-    height: 700px;
+    height: 900px;
     margin: auto;
     margin-top: 150px;
+    margin-bottom: 150px;
 }
 
 .slider {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 900px;
+    height: 100%;
     /* width: 80%; */
     margin: 0;
     overflow: hidden;
@@ -168,6 +172,11 @@ main {
     box-shadow: 15px 15px 30px rgb(25, 25, 25), -15px -15px 30px rgb(60, 60, 60);
     color: white;
     border-radius: 20px;
+}
+
+.element p {
+    text-align: center;
+    padding: 30px;
 }
 
 /* #img3 {
@@ -243,17 +252,4 @@ footer {
     margin-left: 15px;
     cursor: pointer;
     text-decoration: none;
-}
-
-.slider_img1 {
-    width: 100%;
-    border-radius: 10px 10px 0 0;
-    height: 36%;
-    background-size: cover;
-    background-image: linear-gradient(rgba(255, 255, 255, 0),
-            rgba(255, 255, 255, 0),
-            #212121),
-        url("/doc/loading.gif");
-
-    box-shadow: inset 1px -20px 50px #212121;
 }
