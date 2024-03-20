@@ -6,6 +6,12 @@
     transform: scale(0.7);
 }
 
+#big:hover {
+    transform: scale(0.7);
+    opacity: 0.8;
+    transition: 0.2s ease-in-out;
+}
+
 header {
     flex-direction: column;
     align-items: center;

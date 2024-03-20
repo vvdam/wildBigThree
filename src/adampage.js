@@ -1,6 +1,7 @@
 const navBar = document.querySelector('.navbar');
 const burgerButton = document.querySelector('#burger');
 const closeButton = document.querySelector('#closemark');
+const body = document.querySelector('body');
 
 // Défilement de la navbar => affichage croix + disparition burger
 burgerButton.addEventListener('click', () => {
@@ -13,6 +14,14 @@ closeButton.addEventListener('click', () => {
     navBar.classList.remove('open');
     burgerButton.classList.remove('remove');
 })
+
+// Disparition burger au click sur le body
+// body.addEventListener('click', () => {
+//     console.log(2);
+//     navBar.classList.remove('open');
+//     burgerButton.classList.remove('remove');
+// })
+
 
 // Effet de mouvement sur image principale
 const movieTitles = document.querySelectorAll(".mainimage");
