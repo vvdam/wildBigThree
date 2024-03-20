@@ -23,8 +23,20 @@ closeButton.addEventListener('click', () => {
 // })
 
 
+
+// On récupère le slider
+const slider = document.querySelector('.slider');
+
+// On récupère les éléments
+const elements = document.querySelector('.elements');
+
+// On récupère la card pour en retirer sa taille X
+const element = document.querySelector('.element');
+
 // Effet de mouvement sur image principale
 const movieTitles = document.querySelectorAll(".mainimage");
+
+const elementWidth = element.getBoundingClientRect().width; // Dimension X d'un élément
 
 if (window.matchMedia("(min-width: 800px)").matches) {
     movieTitles.forEach(el => {
@@ -56,27 +68,16 @@ if (window.matchMedia("(min-width: 800px)").matches) {
         })
     });
 
-    // On récupère le slider
-    const slider = document.querySelector('.slider');
-
-    // On récupère les éléments
-    const elements = document.querySelector('.elements');
-
     // On récupère le button next
     const nextButton = document.querySelector('#rightarrow');
 
     // On récupère le bouton prev
     const prevButton = document.querySelector('#leftarrow');
 
-    // On récupère la card pour en retirer sa taille X
-    const element = document.querySelector('.element');
-    const style = window.getComputedStyle(element);
-
     // On vient créer un tableau avec tous les éléments
     const listElement = Array.from(elements.children);
 
     // On vient cloner le nombre d'image nécessaire à la fin du slider
-    const elementWidth = element.getBoundingClientRect().width; // Dimension X d'un élément
     const elementsWidth = elements.getBoundingClientRect().width; // Dimension X du conteneur éléments
 
     // Calcul du nombre d'images visible 
@@ -149,5 +150,44 @@ if (window.matchMedia("(min-width: 800px)").matches) {
 // compteur = 1 et -1 si 5 cartes créées 
 // compteur = 2 et -2 si 7 cartes créées 
 // ...
+
+
+if (window.matchMedia("(max-width: 800px)").matches) {
+
+    // Clonage du 1er er dernier élément
+    const firstClone = elements.firstElementChild.cloneNode(true);
+    console.log(firstClone);
+    const secondClone = elements.lastElementChild.cloneNode(true);
+    console.log(secondClone);
+
+    // Ajout de ses clones à la fin et au début
+    elements.appendChild(firstClone);
+    elements.prepend(secondClone);
+
+    // Création fonction suivante
+    // function suivante() {
+    //     let compteur = 0;
+    //     let offSetWidth = -elementWidth * compteur;
+    //     elements.style.transform = `translateX(${offSetWidth}px)`;
+    //     compteur ++;
+    // }
+
+    // Création du défilement
+    let compteurInter = 0;
+    setInterval(function () {
+        compteurInter++;
+        if (compteurInter < 4) {
+            let decalage = -elementWidth * compteurInter;
+            elements.style.transition = "0.5s ease";
+            elements.style.transform = `translateX(${decalage}px)`;
+        }
+        else {
+            compteurInter = -2;
+            let decalage = -elementWidth * compteurInter;
+            elements.style.transition = "unset";
+            elements.style.transform = `translateX(${decalage}px)`
+        }
+    }, 5000)
+}
 
 
