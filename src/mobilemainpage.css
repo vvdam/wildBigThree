@@ -2,12 +2,16 @@ body {
     height: 100%;
 }
 
+header {
+    gap: 20px;
+}
+
 main {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 30px;
-    height: 100vh;
+    margin-top: 40px;
 }
 
 .title {

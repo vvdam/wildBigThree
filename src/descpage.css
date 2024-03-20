@@ -202,12 +202,26 @@ main {
 
 .element p {
     text-align: center;
-    padding: 30px;
+    padding: 0 30px 30px 30px;
 }
 
 .element h2 {
     text-align: center;
-    margin: 20px;
+    margin: 25px 20px 20px 20px;
+}
+
+.element h4 {
+    margin-left: 20px;
+    margin-top: 20;
+    margin-bottom: 10px;
+}
+
+.element ul {
+    margin: 0;
+}
+
+.element ul li {
+    list-style-type: none;
 }
 
 /* #img3 {
