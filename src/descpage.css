@@ -4,7 +4,7 @@ body {
     box-sizing: border-box;
     /* background-image: url(/doc/Shader\ Gradient\ Wild.png); */
     /* background-size: cover; */
-    font-family: 'poppins';
+    font-family: "poppins";
 }
 
 #myVideo {
@@ -72,7 +72,6 @@ nav {
 
 #big {
     padding: 0;
-
 }
 
 #big:hover {
@@ -80,7 +79,6 @@ nav {
     opacity: 0.8;
     transition: 0.2s ease-in-out;
     cursor: pointer;
-
 }
 
 .bi-list {
@@ -130,15 +128,16 @@ header {
 
 main {
     width: 90%;
-    height: 700px;
+    height: 1000px;
     margin: auto;
+    margin-top: 150px;
 }
 
 .slider {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 700px;
+    height: 900px;
     /* width: 80%; */
     margin: 0;
     overflow: hidden;
@@ -160,9 +159,12 @@ main {
     background-size: cover; */
     background-color: rgba(255, 255, 255, 0.5);
     min-width: 45%;
-    height: 500px;
+    height: 900px;
     margin: 20px;
     /* padding: 20px; */
+    background-color: #212121;
+    box-shadow: 15px 15px 30px rgb(25, 25, 25), -15px -15px 30px rgb(60, 60, 60);
+    color: white;
     border-radius: 20px;
 }
 
@@ -236,4 +238,19 @@ footer {
     margin-left: 15px;
     cursor: pointer;
     text-decoration: none;
+}
+
+.slider_img1 {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    height: 36%;
+    background-size: cover;
+    background-image: linear-gradient(
+            rgba(255, 255, 255, 0),
+            rgba(255, 255, 255, 0),
+            #212121
+        ),
+        url("/doc/loading.gif");
+
+    box-shadow: inset 1px -20px 50px #212121;
 }

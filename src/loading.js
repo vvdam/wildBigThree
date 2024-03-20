@@ -8,4 +8,4 @@ setTimeout(() => {
         loader.style.display = "none";
     }, 300);
     loader.style.opacity = "0";
-}, 1000);
+}, 1500);
