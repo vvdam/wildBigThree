@@ -16,6 +16,10 @@ header {
     display: none;
 }
 
+main {
+    width: 60%;
+}
+
 .element {
     min-width: 100%;
 }
