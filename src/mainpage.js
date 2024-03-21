@@ -13,9 +13,9 @@ const profiles = [
         lien: "src/Anthony.html",
     },
     {
-        name: "Black Star ",
-        picture: "doc/pfp/Sibadprofile.jpg",
-        bio: `J'ai plus d'inspi`,
+        name: "BLACK STAR ",
+        picture: "doc/BG.jpg",
+        bio: `Clique sur ma card tu vas flipper, car mieu vaut Tuer que d'êtres Tué`,
         lien: "src/Black-Star.html",
     },
 ];
