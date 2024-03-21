@@ -188,7 +188,6 @@ if (window.matchMedia("(max-width: 800px)").matches) {
         }, 5000)
     }
     animateSlider();
-
 }
 
 
