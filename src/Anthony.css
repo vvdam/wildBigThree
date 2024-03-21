@@ -6,7 +6,7 @@
     background-image: linear-gradient(rgba(255, 255, 255, 0),
             rgba(255, 255, 255, 0),
             #212121),
-        url("/doc/Interstellar.JPG");
+        url("../doc/Interstellar.JPG");
 
     box-shadow: inset 1px -20px 50px #212121;
     background-position: center;
@@ -20,7 +20,7 @@
     background-image: linear-gradient(rgba(255, 255, 255, 0),
             rgba(255, 255, 255, 0),
             #212121),
-        url("/doc/1x1_NSwitchDS_ApexLegends_Season18_image500w.jpg");
+        url("../doc/1x1_NSwitchDS_ApexLegends_Season18_image500w.jpg");
 
     box-shadow: inset 1px -20px 50px #212121;
     /* background-position: center; */
@@ -34,7 +34,7 @@
     background-image: linear-gradient(rgba(255, 255, 255, 0),
             rgba(255, 255, 255, 0),
             #212121),
-        url("/doc/Hardware.JPG");
+        url("../doc/Hardware.JPG");
 
     box-shadow: inset 1px -20px 50px #212121;
     background-position: center;
@@ -48,7 +48,7 @@
     background-image: linear-gradient(rgba(255, 255, 255, 0),
             rgba(255, 255, 255, 0),
             #212121),
-        url("/doc/Streetlifting.WEBP");
+        url("../doc/Streetlifting.WEBP");
 
     box-shadow: inset 1px -20px 50px #212121;
     background-position: center;
@@ -62,7 +62,7 @@
     background-image: linear-gradient(rgba(255, 255, 255, 0),
             rgba(255, 255, 255, 0),
             #212121),
-        url("/doc/courseapied.JPG");
+        url("../doc/courseapied.JPG");
 
     box-shadow: inset 1px -20px 50px #212121;
     background-position: center;
