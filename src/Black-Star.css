@@ -1,0 +1,86 @@
+.slider_img1 {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    height: 36%;
+    background-size: cover;
+    background-image: linear-gradient(rgba(255, 255, 255, 0),
+            rgba(255, 255, 255, 0),
+            #212121),
+        url("../doc/Optimus.jpg");
+
+    box-shadow: inset 1px -20px 50px #212121;
+}
+
+.slider_img2 {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    height: 36%;
+    background-size: cover;
+    background-image: linear-gradient(rgba(255, 255, 255, 0),
+            rgba(255, 255, 255, 0),
+            #212121),
+        url("../doc/JEUX\ VIDEO.jpg");
+
+    box-shadow: inset 1px -20px 50px #212121;
+}
+
+.slider_img3 {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    height: 36%;
+    background-size: cover;
+    background-image: linear-gradient(rgba(255, 255, 255, 0),
+            rgba(255, 255, 255, 0),
+            #212121),
+        url("../doc/Graffeur2.png");
+
+    box-shadow: inset 1px -20px 50px #212121;
+}
+
+.slider_img4 {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    height: 36%;
+    background-size: cover;
+    background-image: linear-gradient(rgba(255, 255, 255, 0),
+            rgba(255, 255, 255, 0),
+            #212121),
+        url("../doc/Mangaaa.jpg");
+
+    box-shadow: inset 1px -20px 50px #212121;
+}
+
+.slider_img5 {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    height: 36%;
+    background-size: cover;
+    background-image: linear-gradient(rgba(255, 255, 255, 0),
+            rgba(255, 255, 255, 0),
+            #212121),
+        url("../doc/arturbain.jpg");
+
+    box-shadow: inset 1px -20px 50px #212121;
+}
+
+.description_div {
+    margin: 20px 20px 20px 10px;
+    border-radius: 20px;
+    /* background-color: rgba(255, 255, 255, 0.5); */
+    box-shadow: inset 1px -20px 50px #212121;
+    background-color: #212121;
+
+
+    text-align: center;
+    padding: 20px;
+    max-width: 65ch;
+}
+
+.description_p {
+    background: linear-gradient(90deg, rgba(246, 168, 130, 1) 16%, rgba(126, 255, 255, 1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    color: transparent;
+
+}
