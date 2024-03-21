@@ -6,7 +6,7 @@
     background-image: linear-gradient(rgba(255, 255, 255, 0),
             rgba(255, 255, 255, 0),
             #212121),
-        url("/doc/Optimus.jpg");
+        url("../doc/Optimus.jpg");
 
     box-shadow: inset 1px -20px 50px #212121;
 }
@@ -19,7 +19,7 @@
     background-image: linear-gradient(rgba(255, 255, 255, 0),
             rgba(255, 255, 255, 0),
             #212121),
-        url("/doc/JEUX\ VIDEO.jpg");
+        url("../doc/JEUX\ VIDEO.jpg");
 
     box-shadow: inset 1px -20px 50px #212121;
 }
@@ -32,7 +32,7 @@
     background-image: linear-gradient(rgba(255, 255, 255, 0),
             rgba(255, 255, 255, 0),
             #212121),
-        url("/doc/Graffeur2.png");
+        url("../doc/Graffeur2.png");
 
     box-shadow: inset 1px -20px 50px #212121;
 }
@@ -45,7 +45,7 @@
     background-image: linear-gradient(rgba(255, 255, 255, 0),
             rgba(255, 255, 255, 0),
             #212121),
-        url("/doc/Mangaaa.jpg");
+        url("../doc/Mangaaa.jpg");
 
     box-shadow: inset 1px -20px 50px #212121;
 }
@@ -58,7 +58,7 @@
     background-image: linear-gradient(rgba(255, 255, 255, 0),
             rgba(255, 255, 255, 0),
             #212121),
-        url("/doc/arturbain.jpg");
+        url("../doc/arturbain.jpg");
 
     box-shadow: inset 1px -20px 50px #212121;
 }
