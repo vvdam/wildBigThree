@@ -9,6 +9,7 @@
         url("/doc/Interstellar.JPG");
 
     box-shadow: inset 1px -20px 50px #212121;
+    background-position: center;
 }
 
 .slider_img2 {
@@ -22,6 +23,7 @@
         url("/doc/1x1_NSwitchDS_ApexLegends_Season18_image500w.jpg");
 
     box-shadow: inset 1px -20px 50px #212121;
+    /* background-position: center; */
 }
 
 .slider_img3 {
@@ -35,6 +37,7 @@
         url("/doc/Hardware.JPG");
 
     box-shadow: inset 1px -20px 50px #212121;
+    background-position: center;
 }
 
 .slider_img4 {
@@ -48,6 +51,7 @@
         url("/doc/Streetlifting.WEBP");
 
     box-shadow: inset 1px -20px 50px #212121;
+    background-position: center;
 }
 
 .slider_img5 {
@@ -61,4 +65,5 @@
         url("/doc/courseapied.JPG");
 
     box-shadow: inset 1px -20px 50px #212121;
+    background-position: center;
 }
