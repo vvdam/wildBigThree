@@ -162,21 +162,33 @@ if (window.matchMedia("(max-width: 800px)").matches) {
     elements.prepend(secondClone);
 
     // Création du défilement
-    let compteurInter = 0;
-    setInterval(function () {
-        compteurInter++;
-        if (compteurInter < 4) {
-            let decalage = -elementWidth * compteurInter;
-            elements.style.transition = "0.5s ease";
-            elements.style.transform = `translateX(${decalage}px)`;
-        }
-        else {
-            compteurInter = -2;
-            let decalage = -elementWidth * compteurInter;
-            elements.style.transition = "unset";
-            elements.style.transform = `translateX(${decalage}px)`
-        }
-    }, 5000)
+
+    function animateSlider() {
+        let compteurInter = 0;
+        let clear = setInterval(function defilement() {
+            if (compteurInter < 4) {
+                let decalage = -elementWidth * compteurInter;
+                elements.style.transition = "0.5s ease";
+                elements.style.transform = `translateX(${decalage}px)`;
+            }
+            else {
+                compteurInter = -2;
+                let decalage = -elementWidth * compteurInter;
+                elements.style.transition = "unset";
+                elements.style.transform = `translateX(${decalage}px)`;
+                let reset = setInterval(function () {
+                    elements.style.transition = "0.5s ease";
+                    elements.style.transform = `translateX(${decalage - elementWidth}px)`;
+                    clearInterval(reset);
+                    clearInterval(clear);
+                    animateSlider()
+                }, 0)
+            }
+            compteurInter++;
+        }, 5000)
+    }
+    animateSlider();
+
 }
 
 
