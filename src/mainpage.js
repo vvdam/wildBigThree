@@ -3,20 +3,20 @@ const profiles = [
         name: "Adam Maaloul",
         picture: "../doc/pfp/Sibadprofile.jpg",
         bio: `Un jour je serai le meilleur dresseur Je me battrai sans répit Je ferai tout pour être vainqueur Et gagner les défis Je parcourrai la terre entière Traquant avec espoir Les Pokémon et leurs mystères Le secret de leurs pouvoirs`,
-        lien: 'AdamMaloul.html'
+        lien: "src/AdamMaloul.html",
     },
     {
         name: "Anthony Dufrenot",
         picture: "../doc/imgAntho.jpg",
         bio: `Pas de panique à bord, le fun et la vitesse à bord Pas de panique à
     bord C'est les Ratz, c'est les Ratz qui sont là pour ça`,
-        lien: 'Anthony.html'
+        lien: "src/Anthony.html",
     },
     {
         name: "Black Star ",
         picture: "../doc/pfp/Sibadprofile.jpg",
         bio: `J'ai plus d'inspi`,
-        lien: 'Black-Star.html'
+        lien: "src/Black-Star.html",
     },
 ];
 
