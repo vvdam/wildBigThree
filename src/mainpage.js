@@ -9,14 +9,13 @@ const profiles = [
     {
         name: "Anthony Dufrenot",
         picture: "doc/imgAntho.jpg",
-        bio: `Pas de panique à bord, le fun et la vitesse à bord Pas de panique à
-    bord C'est les Ratz, c'est les Ratz qui sont là pour ça`,
+        bio: `Clique sur ma card pour pénetrer dans un monde de merveille où reigne la bienveillance et la bonne humeur.`,
         lien: "src/Anthony.html",
     },
     {
         name: "BLACK STAR ",
         picture: "doc/BG.jpg",
-        bio: `Clique sur ma card tu vas flipper, car mieu vaut Tuer que d'êtres Tué`,
+        bio: `Clique sur ma card tu vas flipper, car mieux vaut Tuer que d'être Tué`,
         lien: "src/Black-Star.html",
     },
 ];
