@@ -1,6 +1,8 @@
 .slider_img1,
 .slider_img2,
-.slider_img3 {
+.slider_img3,
+.slider_img4,
+.slider_img5 {
     width: 100%;
     border-radius: 10px 10px 0 0;
     height: 36%;
@@ -33,4 +35,22 @@
             #212121
         ),
         url("../doc/NieR_RepliCant.jpeg");
+}
+
+.slider_img4 {
+    background-image: linear-gradient(
+            rgba(255, 255, 255, 0),
+            rgba(255, 255, 255, 0),
+            #212121
+        ),
+        url("../doc/Nier.jpeg");
+}
+
+.slider_img5 {
+    background-image: linear-gradient(
+            rgba(255, 255, 255, 0),
+            rgba(255, 255, 255, 0),
+            #212121
+        ),
+        url("../doc/ivan_le_t.jpeg");
 }
