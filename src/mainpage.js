@@ -14,10 +14,9 @@ const profiles = [
         lien: "src/Anthony.html",
     },
     {
-        name: "Black Star ",
-        picture: "doc/pfp/Sibadprofile.jpg",
-        bio: `Pas de panique à bord, le fun et la vitesse à bord Pas de panique à
-        bord C'est les Ratz, c'est les Ratz qui sont là pour ça`,
+        name: "BLACK STAR ",
+        picture: "doc/BG.jpg",
+        bio: `Clique sur ma card tu vas flipper, car mieu vaut Tuer que d'êtres Tué`,
         lien: "src/Black-Star.html",
     },
 ];
