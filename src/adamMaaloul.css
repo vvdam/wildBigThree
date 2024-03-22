@@ -1,3 +1,8 @@
+nav {
+    display: flex;
+    justify-content: flex-start;
+}
+
 .slider_img1,
 .slider_img2,
 .slider_img3 {
@@ -11,26 +16,22 @@
 }
 
 .slider_img1 {
-    background-image: linear-gradient(
-            rgba(255, 255, 255, 0),
-            /* rgba(255, 255, 255, 0), */ #212121
-        ),
+    background-image: linear-gradient(rgba(255, 255, 255, 0),
+            /* rgba(255, 255, 255, 0), */
+            #212121),
         url("../doc/p_mononoke.jpeg");
 }
+
 .slider_img2 {
-    background-image: linear-gradient(
+    background-image: linear-gradient(rgba(255, 255, 255, 0),
             rgba(255, 255, 255, 0),
-            rgba(255, 255, 255, 0),
-            #212121
-        ),
+            #212121),
         url("../doc/Zero808worksArt.jpeg");
 }
 
 .slider_img3 {
-    background-image: linear-gradient(
+    background-image: linear-gradient(rgba(255, 255, 255, 0),
             rgba(255, 255, 255, 0),
-            rgba(255, 255, 255, 0),
-            #212121
-        ),
+            #212121),
         url("../doc/NieR_RepliCant.jpeg");
 }

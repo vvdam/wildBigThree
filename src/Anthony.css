@@ -3,14 +3,13 @@
     border-radius: 10px 10px 0 0;
     height: 36%;
     background-size: cover;
-    background-image: linear-gradient(
+    background-image: linear-gradient(rgba(255, 255, 255, 0),
             rgba(255, 255, 255, 0),
-            rgba(255, 255, 255, 0),
-            #212121
-        ),
+            #212121),
         url("../doc/Interstellar.JPG");
 
     box-shadow: inset 1px -20px 50px #212121;
+    background-position: center;
 }
 
 .slider_img2 {
@@ -18,14 +17,13 @@
     border-radius: 10px 10px 0 0;
     height: 36%;
     background-size: cover;
-    background-image: linear-gradient(
+    background-image: linear-gradient(rgba(255, 255, 255, 0),
             rgba(255, 255, 255, 0),
-            rgba(255, 255, 255, 0),
-            #212121
-        ),
+            #212121),
         url("../doc/1x1_NSwitchDS_ApexLegends_Season18_image500w.jpg");
 
     box-shadow: inset 1px -20px 50px #212121;
+    /* background-position: center; */
 }
 
 .slider_img3 {
@@ -33,14 +31,13 @@
     border-radius: 10px 10px 0 0;
     height: 36%;
     background-size: cover;
-    background-image: linear-gradient(
+    background-image: linear-gradient(rgba(255, 255, 255, 0),
             rgba(255, 255, 255, 0),
-            rgba(255, 255, 255, 0),
-            #212121
-        ),
+            #212121),
         url("../doc/Hardware.JPG");
 
     box-shadow: inset 1px -20px 50px #212121;
+    background-position: center;
 }
 
 .slider_img4 {
@@ -48,14 +45,13 @@
     border-radius: 10px 10px 0 0;
     height: 36%;
     background-size: cover;
-    background-image: linear-gradient(
+    background-image: linear-gradient(rgba(255, 255, 255, 0),
             rgba(255, 255, 255, 0),
-            rgba(255, 255, 255, 0),
-            #212121
-        ),
+            #212121),
         url("../doc/Streetlifting.WEBP");
 
     box-shadow: inset 1px -20px 50px #212121;
+    background-position: center;
 }
 
 .slider_img5 {
@@ -63,12 +59,11 @@
     border-radius: 10px 10px 0 0;
     height: 36%;
     background-size: cover;
-    background-image: linear-gradient(
+    background-image: linear-gradient(rgba(255, 255, 255, 0),
             rgba(255, 255, 255, 0),
-            rgba(255, 255, 255, 0),
-            #212121
-        ),
+            #212121),
         url("../doc/courseapied.JPG");
 
     box-shadow: inset 1px -20px 50px #212121;
+    background-position: center;
 }

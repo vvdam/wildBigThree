@@ -121,7 +121,6 @@ if (window.matchMedia("(min-width: 800px)").matches) {
                 elements.style.transform = `translateX(${offSet}px)`;
             }
         }, 500);
-
     })
 
     prevButton.addEventListener('click', () => {
@@ -188,7 +187,6 @@ if (window.matchMedia("(max-width: 800px)").matches) {
         }, 5000)
     }
     animateSlider();
-
 }
 
 
