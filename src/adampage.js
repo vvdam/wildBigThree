@@ -108,7 +108,6 @@ if (window.matchMedia("(min-width: 800px)").matches) {
 
     nextButton.addEventListener('click', () => {
         compteur++;
-        // listElement[compteur].classList.add('inactive')
         elements.style.transition = "0.5s ease";
         let offSet = (-(elementWidth + 50) * compteur);
         elements.style.transform = `translateX(${offSet}px)`;
