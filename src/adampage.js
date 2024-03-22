@@ -27,7 +27,7 @@ blackScreen.addEventListener('click', () => {
 // On récupère le slider
 const slider = document.querySelector('.slider');
 
-// On récupère les éléments
+// On récupère les éléments contenur dans "éléments"
 const elements = document.querySelector('.elements');
 
 // On récupère la card pour en retirer sa taille X
