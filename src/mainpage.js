@@ -1,7 +1,7 @@
 const profiles = [
     {
         name: "Adam Maaloul",
-        picture: "doc/pfp/Sibadprofile.jpg",
+        picture: "doc/pfp/ConvertisseurGIFanim.gif",
         bio: `Pas de panique à bord, le fun et la vitesse à bord Pas de panique à
         bord C'est les Ratz, c'est les Ratz qui sont là pour ça`,
         lien: "src/AdamMaloul.html",
