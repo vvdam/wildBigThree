@@ -6,10 +6,9 @@
     background-image: linear-gradient(rgba(255, 255, 255, 0),
             rgba(255, 255, 255, 0),
             #212121),
-        url("../doc/Interstellar.JPG");
+        url("../doc/Optimus.jpg");
 
     box-shadow: inset 1px -20px 50px #212121;
-    background-position: center;
 }
 
 .slider_img2 {
@@ -20,10 +19,9 @@
     background-image: linear-gradient(rgba(255, 255, 255, 0),
             rgba(255, 255, 255, 0),
             #212121),
-        url("../doc/1x1_NSwitchDS_ApexLegends_Season18_image500w.jpg");
+        url("../doc/JEUX\ VIDEO.jpg");
 
     box-shadow: inset 1px -20px 50px #212121;
-    /* background-position: center; */
 }
 
 .slider_img3 {
@@ -34,10 +32,9 @@
     background-image: linear-gradient(rgba(255, 255, 255, 0),
             rgba(255, 255, 255, 0),
             #212121),
-        url("../doc/Hardware.JPG");
+        url("../doc/Graffeur2.png");
 
     box-shadow: inset 1px -20px 50px #212121;
-    background-position: center;
 }
 
 .slider_img4 {
@@ -48,10 +45,9 @@
     background-image: linear-gradient(rgba(255, 255, 255, 0),
             rgba(255, 255, 255, 0),
             #212121),
-        url("../doc/Streetlifting.WEBP");
+        url("../doc/Mangaaa.jpg");
 
     box-shadow: inset 1px -20px 50px #212121;
-    background-position: center;
 }
 
 .slider_img5 {
@@ -62,8 +58,29 @@
     background-image: linear-gradient(rgba(255, 255, 255, 0),
             rgba(255, 255, 255, 0),
             #212121),
-        url("../doc/courseapied.JPG");
+        url("../doc/arturbain.jpg");
 
     box-shadow: inset 1px -20px 50px #212121;
-    background-position: center;
+}
+
+.description_div {
+    margin: 20px 20px 20px 10px;
+    border-radius: 20px;
+    /* background-color: rgba(255, 255, 255, 0.5); */
+    box-shadow: inset 1px -20px 50px #212121;
+    background-color: #212121;
+
+
+    text-align: center;
+    padding: 20px;
+    max-width: 65ch;
+}
+
+.description_p {
+    background: linear-gradient(90deg, rgba(246, 168, 130, 1) 16%, rgba(126, 255, 255, 1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    color: transparent;
+
 }

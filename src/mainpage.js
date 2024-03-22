@@ -2,7 +2,8 @@ const profiles = [
     {
         name: "Adam Maaloul",
         picture: "doc/pfp/Sibadprofile.jpg",
-        bio: `Un jour je serai le meilleur dresseur Je me battrai sans répit Je ferai tout pour être vainqueur Et gagner les défis Je parcourrai la terre entière Traquant avec espoir Les Pokémon et leurs mystères Le secret de leurs pouvoirs`,
+        bio: `Pas de panique à bord, le fun et la vitesse à bord Pas de panique à
+        bord C'est les Ratz, c'est les Ratz qui sont là pour ça`,
         lien: "src/AdamMaloul.html",
     },
     {
@@ -13,9 +14,9 @@ const profiles = [
         lien: "src/Anthony.html",
     },
     {
-        name: "Black Star ",
-        picture: "doc/pfp/Sibadprofile.jpg",
-        bio: `J'ai plus d'inspi`,
+        name: "BLACK STAR ",
+        picture: "doc/BG.jpg",
+        bio: `Clique sur ma card tu vas flipper, car mieu vaut Tuer que d'êtres Tué`,
         lien: "src/Black-Star.html",
     },
 ];
